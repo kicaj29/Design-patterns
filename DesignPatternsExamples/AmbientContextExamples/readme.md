@@ -1,3 +1,4 @@
 ﻿Links:
-http://blogs.clariusconsulting.net/kzu/a-better-way-to-implement-the-singleton-anti-pattern-for-easier-testing-using-ambientsingleton/
-https://github.com/kzu/adapter/blob/master/Src/Adapter/netfx/System/AmbientSingleton.cs
+
+Blog:http://blogs.clariusconsulting.net/kzu/a-better-way-to-implement-the-singleton-anti-pattern-for-easier-testing-using-ambientsingleton/
+Implementation: https://github.com/kzu/adapter/blob/master/Src/Adapter/netfx/System/AmbientSingleton.cs
