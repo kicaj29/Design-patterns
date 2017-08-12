@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,7 +47,7 @@ namespace AmbientContextExamples.Example1
         public T Value
         {
             get
-            {
+            {           
                 var contextValue = CallContext.LogicalGetData(this.slotName);
                 if (contextValue != null)
                     return (T)contextValue;

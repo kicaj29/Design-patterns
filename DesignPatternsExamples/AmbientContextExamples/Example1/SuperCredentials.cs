@@ -10,5 +10,10 @@ namespace AmbientContextExamples.Example1
     {
         public string User { get; set; }
         public string Password { get; set; }
+
+        public override string ToString()
+        {
+            return $"User: '{User}', Password: '{Password}'";
+        }
     }
 }

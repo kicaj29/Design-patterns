@@ -22,25 +22,7 @@ namespace DesignPatternsExamples
 
         private void btnTestAmbientContext_Click(object sender, EventArgs e)
         {
-            DisplayDebugInfo();
-            Credentials.Instance = new SuperCredentials();
-            DisplayDebugInfo();
-
-            var t = new Task(() =>
-                {
-                    DisplayDebugInfo();
-                }
-            );
-            t.Start();
-            t.Wait();
-        }
-
-        private void DisplayDebugInfo()
-        {
-            Console.WriteLine("Task {0} running on thread {1}",
-                Task.CurrentId, Thread.CurrentThread.ManagedThreadId);
-
-            Console.WriteLine("Instance of ambient context {0}", Credentials.Instance.GetHashCode());
+            RunExample1.Run();
         }
     }
 }
