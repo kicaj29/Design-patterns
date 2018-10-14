@@ -14,6 +14,9 @@ It means that we should avoid things like __method not implemented exception__ i
    __I stands for ISP (Interface segregation principle)__:- Client should not be forced to use a interface if it does not need it.
 It is about versioning of interfaces.      
    __D stands for DIP (Dependency inversion principle)__:- High level modules should not depend on low level modules but should depend on abstraction.
-It means that all dependencies should be passed via constructor and should be interfaces.      
+It means that all dependencies should be passed via constructor and should be interfaces.   
+
+## Adapter
+https://www.dofactory.com/net/adapter-design-pattern
 
 
