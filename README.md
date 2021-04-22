@@ -1,9 +1,6 @@
-# .NET-Design-patterns
-In this repo you can find many implementations and examples of design patterns in .NET
+# AmbientContextExamples
 
-## AmbientContextExamples
-
-## SOLID
+# SOLID
 https://www.codeproject.com/Articles/703634/SOLID-architecture-principles-using-simple-Csharp
 https://medium.com/@mirzafarrukh13/solid-design-principles-c-de157c500425
 
@@ -26,7 +23,34 @@ It is called *Dependency inversion* because if a class uses some other classes/i
 actually instance of an object. This can be achieved by DI or by service locator.
 IOC (Inversion of control) is a general parent term while DI (Dependency injection) is a subset of IOC. IOC is a concept where the flow of application is inverted.
 
-## Adapter
+# Adapter
 https://www.dofactory.com/net/adapter-design-pattern
+
+# Builder, Fluent Builder and  Fluent Interfaces
+
+# Builder
+
+* client (in this case it is ```BuilderUse``` class) does not care how the store is built in details, only the finished product is delivered to him
+
+## Fluent Builder
+
+* This pattern tells us to extract the object construction code out of its own class and put it in a separate object which we call a builder.
+* Has ```Build``` method that should be called at the and of chain.
+
+## Fluent Interfaces
+
+* "A fluent interface is a method of designing object-oriented APIs based extensively on method chaining with the goal of making the readability of the source code to that of ordinary written prose, essentially creating a domain-specific language within the interface"
+
+
+
+https://medium.com/@martinstm/fluent-builder-pattern-c-4ac39fafcb0b   
+https://assist-software.net/blog/how-design-and-implement-fluent-interface-pattern-c   
+https://medium.com/@sawomirkowalski/design-patterns-builder-fluent-interface-and-classic-builder-d16ad3e98f6c   
+https://code-maze.com/builder-design-pattern/   
+
+# Specyfication
+https://enterprisecraftsmanship.com/posts/specification-pattern-c-implementation/
+
+
 
 
