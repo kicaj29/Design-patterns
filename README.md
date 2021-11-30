@@ -1,3 +1,15 @@
+- [AmbientContextExamples](#ambientcontextexamples)
+- [SOLID](#solid)
+- [Adapter](#adapter)
+- [Builder, Fluent Builder and  Fluent Interfaces](#builder-fluent-builder-and--fluent-interfaces)
+- [Builder](#builder)
+  - [Fluent Builder](#fluent-builder)
+  - [Fluent Interfaces](#fluent-interfaces)
+- [Specification](#specification)
+- [SAGA](#saga)
+  - [SAGA using Choreography](#saga-using-choreography)
+  - [SAGA using Orchestration](#saga-using-orchestration)
+
 # AmbientContextExamples
 
 # SOLID
@@ -48,8 +60,18 @@ https://assist-software.net/blog/how-design-and-implement-fluent-interface-patte
 https://medium.com/@sawomirkowalski/design-patterns-builder-fluent-interface-and-classic-builder-d16ad3e98f6c   
 https://code-maze.com/builder-design-pattern/   
 
-# Specyfication
+# Specification
 https://enterprisecraftsmanship.com/posts/specification-pattern-c-implementation/
+
+# SAGA
+
+## SAGA using Choreography
+
+![001_SAGA.png](./images/001_SAGA.png)
+
+## SAGA using Orchestration
+
+![002_SAGA.png](./images/002_SAGA.png)
 
 
 
